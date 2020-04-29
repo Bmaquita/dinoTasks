@@ -1,0 +1,356 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background:#f1f2f3;}
+
+
+    /*STYLING THE NAV  BAR*/
+/*
+THE DISPLAY FLEX WAS USED TO PLACE THE ELEMENTS SIDE-BY-SIDE WITH THE HIGHT OF 12VH AND CENTER ALL OF THEM
+*/
+ nav{
+    
+    display: flex;
+    min-height: 12vh;
+    align-items: center;
+    background-image: radial-gradient( circle farthest-corner at 7.1% 15.6%,  rgba(22,160,133,1) 0%, rgba(64,240,206,1) 100.3% );
+    margin: 5px 5px;
+    border-radius: 10px;
+}
+
+/*STYLING THE THE INTRODUCTION DIV*/
+.intro{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/*THE ACTUAL TEXT THAT APPEARS ON THE WEB_PAGE WITH THE EFFECT*/
+.typing{
+   text-align: center;
+   margin-top: 4rem;
+   font-size: 18px;
+   font-family: sans-serif;
+   font-weight: 900;
+   font-stretch: condensed;
+   text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25); 
+
+}
+/*THIS AFTER IS TO ADD THE CURSOR. I ALSO ADDED THE BLINKING ANIMATION TO TEXT THE RIGHT AND HEIGHT PROPERTY IS FOR THE CURSOR*/
+.typing::after{
+    content: "";
+    right: -10px;
+    height: 80%;
+    animation: blink 1s infinite ease;
+}
+
+/*CREATING THE KEY FRAME ANIMATION I SET THE OPACITY O AND THEN 1 SO IT BLINKS*/
+@keyframes blink{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/*STYLING THE CLOCK OR THE TIME BEING DISPLAYED ON THE PAGE*/
+.date{
+    margin-left:17rem;
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    font-stretch:condensed;
+    letter-spacing: 1px;
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25); 
+}
+
+/*STYLING THE SELECT DIV WHERE THE I FILTER THE TASKS*/
+.select{
+    position: relative;
+    margin-left:17rem;
+    color: #3a4660;
+}
+.searchTasks{
+    margin-left: 1rem;
+}
+
+/* REMOVING ALL DEFAULT STYLES FROM THE THE SELECT INPUT*/
+select, input[type="search"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    outline: none;
+}
+
+/*ADDING NEW STYLES TO THE SELECT INPUT*/
+select {
+    width: 6rem;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    font-stretch: condensed;
+    border-radius: 10px;
+    padding: 4px;    
+}
+input[type="search"]{
+    width: 3.6rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-stretch: condensed;
+    border-radius: 24px;
+    padding: 4px;
+    font-size: 16px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;  
+    cursor: pointer; 
+    transition: all 1s ease;
+
+}
+input[type="search"]:focus{
+    width: 10rem;
+    transition: all 1s ease;
+    
+}
+
+
+
+/*ADDING THE DOWN ARROW TO THE SELECT INPUT AND DEFINING THE POINTER EVENT NONE , SO WHEN WE CLICK TO THE ICON IT WILL
+ACTUALLY CLICK TO THE INPUT ITSELF RATHER THAN THE ICON
+*/
+.select::after{
+    content: "\25BC"; /*THE DOWN ARROW ICIN*/
+    position: absolute;
+    color:white;
+    top:0;
+    right:0px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,1) 0%, rgba(21,38,82,1) 90% );
+    pointer-events: none;
+    padding: 6px;
+    font-size: 12px;
+    animation: blink 2s infinite;
+}
+
+
+/*Styling the brand*/
+
+.brand{
+    margin-left: 9.2rem; 
+    font-family: sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    font-stretch:condensed;
+    letter-spacing: 1px;
+    text-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25);   
+}
+
+/*InputForm  section to input the tasks*/
+
+
+/*ALL THE STYLES OF NAVIGATION BAR AND ITS ELEMENTS ENDS HERE*/
+
+
+/*STYLING THE INPUT DIV FOR THE INPUT FORM*/
+
+.taskInputForm{
+    text-align: center;
+    background-color: white;
+    width: 50%;
+    height: 200px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+/* INPUT FORM STYLING*/
+
+.form{
+    width: 80%;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+}
+.form input{
+    width: 100%;
+    height: 100%;
+    color: black;
+    padding-top: 1rem;
+    font-size: 16px;
+    border: none;
+    outline: none;
+}
+
+/*STYLING THE LABEL*/
+.form label{
+    position: absolute;
+    bottom: 1px;
+    left: 0%;
+    width: 100%;
+    height:100%;
+    pointer-events: none;
+    border-bottom: 2px solid #3a4660;
+    transition: all 1s ease;
+}
+
+.form label::after{
+    content: "";
+    position: absolute;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    bottom: -2px;
+    border-bottom: 2px solid #0ABDA0;
+    transform: translateX(-100%);
+    transition:all 0.9s ease;
+}
+
+.content-name{
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    transition: all 0.8s ease;
+    font-weight: bolder;
+    font-stretch: condensed;
+    color:#3a4660;
+}
+
+.form input:focus + .label-name .content-name, 
+.form input:valid + .label-name .content-name{
+    transform: translateY(-175%);
+    font-size: 13px;
+    font-weight: bolder;
+    font-stretch: condensed;
+    color: #0ABDA0;
+}
+
+.form input:focus + .label-name::after,  
+.form input:valid + .label-name::after{
+    transform: translateX(0%);
+}
+/*END OF INPUT FORM STYLING*/
+
+
+
+/*STYLING THE ADD TASK BUTTON*/
+.taskInputForm button{
+    width: 24%;
+    padding: 0.9rem;
+    border: none;
+    border-radius: 8px;
+    margin-top: 2rem;
+    cursor: pointer;
+    background-image: radial-gradient( circle farthest-corner at 7.1% 15.6%,  rgba(22,160,133,1) 0%, rgba(64,240,206,1) 100.3% );
+}
+/*WHEN HOVER OVER THE ADD TASKS WE SIMPLY CHANGE THE COLOR*/
+.taskInputForm button:hover{
+    transition: 2s ease-in-out;
+    background-image: radial-gradient( circle farthest-corner at -3.1% -4.3%,  rgba(57,255,186,1) 0%, rgba(21,38,82,1) 90% );
+}
+
+/*STYLING THE TEXT INSIDE THE BUTTON*/
+.addText{
+    font-stretch: expanded;
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+
+/*STYLING THE DINOTASK LIST CONTAINER*/
+.task-list-container{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 10px;
+}
+/*STYLING THE ACTUAL UL*/
+.task-list{
+    min-width: 100%;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;    
+}
+/*STYLING THE DIV THAT WILL HOLD THE LIST OF TASKS. THIS DIV WAS CREATED IN THE JS FILE*/
+.tk-div{
+ padding-left: 1rem;
+ margin-top: 0.5rem;
+ width: 100%;
+ background-color: rgba(4, 136, 74, 0.37);
+ color: black;
+ font-size: 16px;
+ display: flex;
+ justify-content: space-between; 
+ align-items: center; 
+ border-radius: 12px;
+}
+
+/*STYLING THE DIV AND LIST OF ITEMS*/
+.tk-div li{
+    font-size: 17px;
+    font-family: sans-serif;
+   font-weight: 510;
+   font-stretch: condensed;
+  flex:1;
+  cursor: pointer;
+}
+/*STYLING THE FIRST LETTER OF THE LIST ITEMS SETTING THEM TO UPPERCASE*/
+.tk-div li::first-letter{
+    text-transform: capitalize;
+}
+
+/*THE ARE THE DELETE AND EDIT BUTTON ON THE LIST*/
+.delete-btn, .edit-btn {
+    border: none;
+    cursor: pointer;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+.edit-btn{
+    background-color: chartreuse;
+}
+.delete-btn{
+    background-color: #0ABDA0;
+
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    color: black;
+    font-weight: 900;
+}
+
+/*THE CLASS WAS USED WHEN THE USER TOGGLE ON THE LIST IT WILL CAUSE TO ADD THAT LINE THROUGH ON THE TASK*/
+.completed-task{
+    text-decoration: line-through 1.5px solid #f1f2f3;
+    opacity: 1;
+    transition: all 1s ease;
+    font-weight: unset;
+    font-stretch: unset;
+    color:#f1f2f3;
+    text-transform: uppercase;    
+    background-image: radial-gradient( circle farthest-corner at 7.1% 15.6%,  rgba(22,160,133,1) 0%, rgba(64,240,206,1) 100.3% );
+}
+/*THESE ARE THE TRASH AND EDIT ICON ON THE ICON*/
+.fa-trash, .fa-edit{
+    pointer-events: none;
+}

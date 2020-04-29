@@ -1,0 +1,1607 @@
+@media screen and (max-width:1300px){
+   
+    .date{
+        margin-left:19rem;
+        font-size: 18px;
+    }
+
+    .brand{
+        margin-left: 6rem; 
+        font-size: 20px;        
+    }
+
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+
+  
+
+@media screen and (max-width:1200px){
+   
+    .date{
+        margin-left:18.8rem;
+        font-size: 18px;
+
+    }
+
+    .brand{
+        margin-left: 1rem; 
+        font-size: 20px;        
+    }
+
+    .select{
+        margin-left:12rem;
+    }
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:1030px){
+   
+    .date{
+        margin-left:16.4rem;
+        font-size: 18px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem; 
+        font-size: 20px;        
+    }
+
+    .select{
+        margin-left:12rem;
+    }
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:968px){
+   
+    .date{
+        margin-left:14.7rem;
+        font-size: 16px;
+
+    }
+
+    .brand{
+        margin-left: 1rem; 
+        font-size: 17px;        
+    }
+
+    .select{
+        margin-left:9rem;
+    }
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:890px){
+   
+    .date{
+        margin-left:12.9rem;
+        font-size: 18px;
+
+    }
+
+    .brand{
+        margin-left: 1rem; 
+        font-size: 17px;        
+    }
+
+    .select{
+        margin-left:10rem;
+    }
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+
+    .taskInputForm button{
+        width: 26%;
+        padding: 0.8rem;
+        margin-top: 1rem;
+
+    }
+
+    .taskInputForm{
+        top:40%;
+        width: 60%;
+        height: 150px;
+       
+    }
+    .taskInputForm{
+        top:36%;
+}
+}
+
+@media screen and (max-width:668px){
+   
+    .date{
+        margin-left:5.7rem;
+        font-size: 15px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem; 
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+        top:0%;
+
+    }
+
+}
+
+@media screen and (max-width:890px){
+   
+    .date{
+        margin-left:12.9rem;
+        font-size: 18px;
+
+    }
+
+    .brand{
+        margin-left: 1rem; 
+        font-size: 17px;        
+    }
+
+    .select{
+        margin-left:10rem;
+    }
+    select {
+        width: 4rem;
+        padding: 2px;    
+    }
+
+    input[type="search"]{
+        width: 3.2rem;        
+        padding: 4px;
+    }
+    input[type="search"]:focus{
+        width: 8rem;
+    }
+    .select::after{
+        padding: 3.5px;
+        font-size: 12px;
+    }
+
+    .taskInputForm button{
+        width: 26%;
+        padding: 0.8rem;
+        margin-top: 1rem;
+
+    }
+
+    .taskInputForm{
+        top:40%;
+        width: 60%;
+        height: 150px;
+       
+    }
+
+}
+
+@media screen and (max-width:598px){
+   
+    .date{
+        margin-left:5.7rem;
+        font-size: 15px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem; 
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:600px){
+   
+    .date{
+        margin-left:5.7rem;
+        font-size: 15px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem; 
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:598px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 14px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width:570px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 14px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    
+@media screen and (max-width:564px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+    }
+  }
+}
+
+
+@media screen and (max-width:598px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 14px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width:570px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 16px;
+
+    }
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+ 
+    
+
+@media screen and (max-width:564px){
+   
+    .date{
+        margin-left:6rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:4rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 78%;
+    }
+
+}
+}
+
+@media screen and (max-width:554px){
+   
+    .date{
+        margin-left:4.9rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 78%;
+    }
+
+}
+
+
+@media screen and (max-width:508px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 30%;
+        font-size: 14px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+
+@media screen and (max-width:554px){
+   
+    .date{
+        margin-left:4.9rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.5rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+    }
+    
+
+    .taskInputForm button{
+        width: 30%;
+        padding: 0.6rem;
+
+    }
+
+    .taskInputForm{
+        width: 78%;
+    }
+
+}
+
+
+@media screen and (max-width:402px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+    }
+
+    .select{
+        margin-left:0.2rem;
+        
+    }
+    select {
+        width: 1rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 4rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 30%;
+        font-size: 14px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+
+@media screen and (max-width:482px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 32%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:388px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+
+@media screen and (max-width:730px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:666px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:396px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:0.2rem;
+        
+    }
+    select {
+        width: 2rem;
+        padding: 1px;  
+  
+    }
+
+    input[type="search"]{
+        width: 1rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 1rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.2rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+@media screen and (max-width:666px){
+   
+    .date{
+        margin-left:4.2rem;
+        font-size: 12px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:2rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 5rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 5rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:352px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+        top:60%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:382px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:308px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 40%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        top:30%;
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width:382px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+        top:40%;
+    }
+
+}
+
+
+@media screen and (max-width:332px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 40%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        top:30%;
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:382px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 36%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        width: 80%;
+        height: 130px;
+    }
+
+}
+
+
+@media screen and (max-width:332px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:1rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 50%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        top:30%;
+        width: 80%;
+        height: 130px;
+    }
+
+}}
+
+
+
+@media screen and (max-width:338px){
+   
+    .date{
+        margin-left:2rem;
+        font-size: 10px;
+
+    }
+    
+
+    .brand{
+        margin-left: 0.2rem;
+        font-size: 14px;
+
+         
+    }
+
+    .select{
+        margin-left:0.5rem;
+        
+    }
+    select {
+        width: 4rem;
+        padding: 2px;  
+  
+    }
+
+    input[type="search"]{
+        width: 3rem;        
+        padding: 2px;
+        cursor: text;
+    }
+    input[type="search"]:focus{
+        width: 3rem;
+        padding-left: 0.2rem;
+    }
+    
+    .searchTasks{
+        margin-left: 0.5rem;
+    }
+
+    .taskInputForm button{
+        width: 50%;
+        font-size: 12px;
+        padding: 0.5rem;
+
+    }
+
+    .taskInputForm{
+        top:38%;
+        width: 80%;
+        height: 130px;
+    }
+
+}
+

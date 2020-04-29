@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="taskList.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="mediaQuery.css"> 
+</head>
+<body>
+
+    <!--NAVIGATION BAR-->
+<nav>
+            <!--NAVIGATION DINOTASKLIST LOGO LOGO-->
+
+        <div class="Logo"><span class="brand">Dinomatic Task List</span></div>
+
+            <!-- DISPLAYING THE-->
+        <div class="date">
+            <span class="clock"></span>
+        </div>
+    
+            <div class="select">
+                
+                <select name="tasks" class="filter-tasks">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncompleted">Uncompleted</option>
+                </select>                
+        </div>
+        <div class = "searchTasks">
+            <input class="searchTask" type="search" name="seach task" placeholder="Search task" autocomplete ="on" maxlength="30">
+        </div>
+
+</nav>
+
+<section>
+
+    <div class="intro">
+        <h2 class="typing"></h2>
+    </div>
+    <form>
+        <div class="taskInputForm"> 
+        
+            <div class="form">
+                <input class="taskInput" type="text" name="name" required="required" autocomplete="off" maxlength="30">
+                
+                <label for="name" class="label-name">  
+                <span class="content-name">New Task</span>
+                </label>
+        
+            </div>       
+            <button type="submit" class="addTask"><span class="addText">Add task</span></button>
+        </div>
+    </form>  
+
+    <div class="task-list-container">
+
+        <ul class="task-list"></ul>
+     
+    </div>
+</section>
+    <script src= "taskList.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+</body>
+</html>
